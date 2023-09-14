@@ -5,7 +5,11 @@ import TeacherUniversity.Teacher;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+/*
+    Код класса TeacherServer отвечает за взаимодействие с данными об учителях. В нем
+    будет реализованы методы для создания, редактирования и получения информациио списказ учителей
+    Принцип исползуется здесь единсвтенной ответсвенности. Так как класс отвечает за работу с данными учителей.
+* */
 public class TeacherServer implements UserServer<Teacher> {
     private List<Teacher> teachers;
     Scanner scanner = new Scanner(System.in);

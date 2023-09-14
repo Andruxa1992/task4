@@ -1,5 +1,4 @@
 package TeacherUniversity;
-
 public class User {
     public int getSalary(){
         if(this instanceof Teacher) {
